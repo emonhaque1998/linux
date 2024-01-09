@@ -1,0 +1,1 @@
+sudo apt install php libapache2-mod-php php-common php-xml php-gd php-opcache php-cli php-mbstring php-tokenizer php-json php-bcmath php-curl php-mysql php-zip unzip
