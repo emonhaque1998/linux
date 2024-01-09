@@ -1,0 +1,15 @@
+#show all users
+mysql> SELECT user from mysql.user;
+
+#create user
+CREATE USER 'sammy'@'localhost' IDENTIFIED BY 'password';
+
+#Give all of permission
+GRANT ALL PRIVILEGES ON *.* TO 'sammy'@'localhost' WITH GRANT OPTION;
+
+#create database
+CREATE DATABASE tutorial_database;
+
+#show databases
+SHOW DATABASES;
+
